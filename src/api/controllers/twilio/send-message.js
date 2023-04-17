@@ -5,7 +5,7 @@ import qrcode from "qrcode-generator";
 
 export default async (req, res) => {
   try {
-    const authToken = "829924a7537fa55722159764aeb981db";
+    const authToken = "e843c7a492b1215e0981c146da54dfc9";
     const accountSid = "ACc2d6d10cd0695a7b651449efdd3fc189";
     // const myPhoneNumber = "+14155238886";
     const myPhoneNumber = "+14155238886";

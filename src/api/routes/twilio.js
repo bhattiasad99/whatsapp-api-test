@@ -10,5 +10,5 @@ const router = Router();
 router.get("/", testTwilio);
 router.post("/send", sendMessage);
 router.post("/send-qr-code", sendQrCode);
-router.get("/get-message", getMessage);
+router.post("/get-message", getMessage);
 export default router;
