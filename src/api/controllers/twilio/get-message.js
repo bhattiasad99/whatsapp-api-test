@@ -5,7 +5,7 @@ import { failure, success } from "../../../utils/helpers/responses.js";
 export default async (req, res) => {
   try {
     console.log(req.body);
-    return success(req, res, OK_SUCCESS, "00094", undefined, {
+    return success(req, res, OK_SUCCESS, "00094", undefined, undefined, {
       data: { ...req.body },
     });
   } catch (err) {
